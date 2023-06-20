@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c1ba6fc5-f993-4fb6-b6c4-374ed3268b4c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>NumadicAPI</Name>
+    <RootNamespace>NumadicAPI</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.8</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="runserver.py" />
+    <Compile Include="NumadicAPI\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NumadicAPI\" />
+    <Folder Include="NumadicAPI\EOLdump\" />
+    <Folder Include="NumadicAPI\static\" />
+    <Folder Include="NumadicAPI\static\content\" />
+    <Folder Include="NumadicAPI\static\fonts\" />
+    <Folder Include="NumadicAPI\static\scripts\" />
+    <Folder Include="NumadicAPI\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NumadicAPI\EOLdump\BR01GF0281.csv" />
+    <Content Include="NumadicAPI\EOLdump\BR01GF5796.csv" />
+    <Content Include="NumadicAPI\EOLdump\BR01GG3237.csv" />
+    <Content Include="NumadicAPI\EOLdump\BR09GA2219.csv" />
+    <Content Include="NumadicAPI\EOLdump\BR09GA2331.csv" />
+    <Content Include="NumadicAPI\EOLdump\BR09GA5531.csv" />
+    <Content Include="NumadicAPI\EOLdump\BR09R8786.csv" />
+    <Content Include="NumadicAPI\EOLdump\BR09T9786.csv" />
+    <Content Include="NumadicAPI\EOLdump\BR24GA3738.csv" />
+    <Content Include="NumadicAPI\EOLdump\BR9E3138.csv" />
+    <Content Include="NumadicAPI\EOLdump\BR9E3594.csv" />
+    <Content Include="NumadicAPI\EOLdump\BR9E4140.csv" />
+    <Content Include="NumadicAPI\EOLdump\CG04JA8083.csv" />
+    <Content Include="NumadicAPI\EOLdump\CG07CA6690.csv" />
+    <Content Include="NumadicAPI\EOLdump\CG07CA9691.csv" />
+    <Content Include="NumadicAPI\EOLdump\CG07CA9787.csv" />
+    <Content Include="NumadicAPI\EOLdump\CG07CA9887.csv" />
+    <Content Include="NumadicAPI\EOLdump\DD03H9443.csv" />
+    <Content Include="NumadicAPI\EOLdump\DL1GB7426.csv" />
+    <Content Include="NumadicAPI\EOLdump\DL1GB7449.csv" />
+    <Content Include="NumadicAPI\EOLdump\DL9CS2871.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ01BT8280.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ01BV3282.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ01CT3241.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ01CT3248.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ01DT6439.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ01DY6086.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ01DY8013.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ02VV9111.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ02XX6966.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ02Z1360.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ02Z6901.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ02Z6975.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AT0087.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AT2302.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AT2584.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AT3131.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AT3384.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AT3477.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AT4382.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AW4294.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AW4419.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AX6815.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AX8105.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AZ2482.csv" />
+    <Content Include="NumadicAPI\EOLdump\GJ03AZ3411.csv" />
+    <Content Include="NumadicAPI\EOLdump\HR45B9981.csv" />
+    <Content Include="NumadicAPI\EOLdump\HR45C7078.csv" />
+    <Content Include="NumadicAPI\EOLdump\HR45C7083.csv" />
+    <Content Include="NumadicAPI\EOLdump\HR46B9751.csv" />
+    <Content Include="NumadicAPI\EOLdump\HR46C0813.csv" />
+    <Content Include="NumadicAPI\EOLdump\HR46D2173.csv" />
+    <Content Include="NumadicAPI\EOLdump\HR46D4855.csv" />
+    <Content Include="NumadicAPI\EOLdump\HR46D6654.csv" />
+    <Content Include="NumadicAPI\EOLdump\HR46D7535.csv" />
+    <Content Include="NumadicAPI\EOLdump\HR46E6939.csv" />
+    <Content Include="NumadicAPI\TripInfo.csv" />
+    <Content Include="requirements.txt" />
+    <Content Include="NumadicAPI\static\content\bootstrap.css" />
+    <Content Include="NumadicAPI\static\content\bootstrap.min.css" />
+    <Content Include="NumadicAPI\static\content\site.css" />
+    <Content Include="NumadicAPI\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="NumadicAPI\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="NumadicAPI\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="NumadicAPI\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="NumadicAPI\static\scripts\bootstrap.js" />
+    <Content Include="NumadicAPI\static\scripts\bootstrap.min.js" />
+    <Content Include="NumadicAPI\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="NumadicAPI\static\scripts\jquery-1.10.2.js" />
+    <Content Include="NumadicAPI\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="NumadicAPI\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="NumadicAPI\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="NumadicAPI\static\scripts\jquery.validate.js" />
+    <Content Include="NumadicAPI\static\scripts\jquery.validate.min.js" />
+    <Content Include="NumadicAPI\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="NumadicAPI\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="NumadicAPI\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="NumadicAPI\static\scripts\respond.js" />
+    <Content Include="NumadicAPI\static\scripts\respond.min.js" />
+    <Content Include="NumadicAPI\static\scripts\_references.js" />
+    <Content Include="NumadicAPI\templates\about.html" />
+    <Content Include="NumadicAPI\templates\contact.html" />
+    <Content Include="NumadicAPI\templates\index.html" />
+    <Content Include="NumadicAPI\templates\layout.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.8" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
